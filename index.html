@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link 
+     rel="stylesheet" 
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+     crossorigin="anonymous"
+    />
+
+    <link 
+     rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer" 
+    />
+
+    <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="/assets/style/style.css">
+
+    <title>Shop</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">Shop</a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                    Accueil
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Items
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                    Terms of use
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                    Policy and privacy
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+
+          <div>
+              <button class="btn btn-dark m-2">
+                  <i class="fa fa-cart-plus"></i>
+              </button>
+
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+          </div>
+        </div>
+    </nav>
+
+    <header class="w-100 py-5 bg-info">
+        <h1 class="text-center text-light text-uppercase fw-bold">
+            Products
+        </h1>
+    </header>
+
+    <section class="container mt-3">
+        <div class="row">
+            <div class="bg- col-lg-2 col-md-4 col-sm-6 p-2">
+                <div class="bg-light rounded-2">
+                    <img src="/assets/img/shoes.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-4 col-sm-6 p-2">
+                <div class="bg-light rounded-2">
+                    <img src="/assets/img/shoes.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-4 col-sm-6 p-2">
+                <div class="bg-light rounded-2 ">
+                    <img src="/assets/img/shoes.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-4 col-sm-6 p-2">
+                <div class="bg-light rounded-2 ">
+                    <img src="/assets/img/shoes.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-4 col-sm-6 p-2">
+                <div class="bg-light rounded-2 ">
+                    <img src="/assets/img/shoes.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class=" col-lg-2 col-md-4 col-sm-6 p-2">
+                <div class="bg-light rounded-2 ">
+                    <img src="/assets/img/shoes.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="#" class="text-center btn btn-lg btn-info mt-3">
+                See more
+            </a>
+        </div>
+        <hr>
+    </section>
+
+    <section class="container my-5">
+        <!-- Slider main container -->
+        <div class="swiper bg-light rounded-3 py-5">
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div>
+                        <img src="/assets/img/shoes.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div>
+                        <img src="/assets/img/nike.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div>
+                        <img src="/assets/img/shoes.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div>
+                        <img src="/assets/img/nike.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                
+                <div class="swiper-slide">
+                    <div>
+                        <img src="/assets/img/shoes.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <section class="container my-5 bg-light py-5 px-3 rounded-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <img src="/assets/img/nike.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex flex-column">
+                    <h3 class="fw-bold">
+                        Air max pro 
+                    </h3>
+
+                    <p class="opacity-75 small">
+                        Shoes/footing
+                    </p>
+
+                    <p class="fs-5">
+                        Increadible shoe for outdoor footing on a mount or a forest.
+                    </p>
+
+                    <ul class="d-flex gap-2 list-style-none ms-0">
+                        <li>
+                            <i class="fa fa-star text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-warning"></i>
+                        </li>
+                    </ul>
+                    <p class="fw-bold fs-4">
+                        $ 400
+                    </p>
+
+                    <ul class="d-flex justify-content-center gap-3 flex-wrap w-100">
+                        <button class="btn btn-info rounded-pill fs-6 px-4">
+                            Buy 
+                            <i class="fa fa-arrow-right ms-2"></i>
+                        </button>
+
+                        <button class="btn btn-dark rounded-pill fs-6 px-4">
+                            Add to cart 
+                            <i class="fa fa-cart-plus ms-2"></i>
+                        </button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="d-flex flex-column align-items-center justify-content-center bg-light w-100 py-5">
+        <ul class="d-flex gap-3 list-style-none">
+            <li>
+                <a href="#" class="text-decoration-none text-dark fs-6">
+                    Accueil
+                </a>
+            </li>
+            
+            <li>
+                <a href="#" class="text-decoration-none text-dark fs-6">
+                    Items
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="text-decoration-none text-dark fs-6">
+                    Terms of use
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="text-decoration-none text-dark fs-6">
+                    privacy and policy
+                </a>
+            </li>
+        </ul>
+
+        <ul class="d-flex gap-5 list-style-none icon">
+            <li class="d-flex justify-content-center align-items-center">
+                <a href="https://facebook.com/" class="fs-4 text-light">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+
+            <li class="d-flex justify-content-center align-items-center">
+                <a href="https://instagram.com/" class="fs-4 text-light">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+
+            <li class="d-flex justify-content-center align-items-center">
+                <a href="https://x.com/" class="fs-4 text-light">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/script/script.js"></script>
+</body>
+</html>

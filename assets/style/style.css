@@ -1,0 +1,24 @@
+.list-style-none {
+    list-style: none;
+}
+
+.swiper .swiper-button-next, .swiper .swiper-button-prev {
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    background: #333333;
+    color: #f2f2f2;
+    font-size: 10px;
+}
+
+footer .icon li {
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    background: #333;
+    color: #f2f2f2;
+}
+
+ul {
+    margin-left: 0 !important;
+}
